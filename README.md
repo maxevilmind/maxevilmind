@@ -65,18 +65,6 @@ Share knowledge and help engineers grow.
 
 ---
 
-## `ls ~/projects`
-
-| Project | Description |
-|---|---|
-| [`hass-entso-e`](https://github.com/maxevilmind/hass-entso-e) | Home Assistant integration work around ENTSO-E energy data |
-| [`react-stepper`](https://github.com/maxevilmind/react-stepper) | Reusable React stepper component |
-| [`es6-string-css-highlight`](https://github.com/maxevilmind/es6-string-css-highlight) | CSS highlighting inside JavaScript template literals |
-| [`startraffic`](https://github.com/maxevilmind/startraffic) | Browser-game experiment |
-| [`onedrive-file-picker`](https://github.com/maxevilmind/onedrive-file-picker) | OneDrive file-picker integration |
-
----
-
 <div align="center">
 
 ### Open • Friendly • Curious • Collaborative
