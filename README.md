@@ -1,73 +1,125 @@
 <div align="center">
-  <img src="./profile-terminal.svg" width="100%" alt="Terminal-style developer profile for Max" />
+
+<img src="./profile-terminal.svg" width="100%" alt="Terminal profile"/>
+
+# Hi, I'm Max 👋
+
+### Staff Frontend Engineer • Platform Engineering • Developer Experience
+
+Building software that helps both products **and people** scale.
+
 </div>
-
-<br />
-
-## `whoami`
-
-Staff Frontend Engineer based near Amsterdam, with **8+ years in JavaScript and frontend engineering**.
-
-I build and evolve frontend platforms used by large organisations: microfrontends, design systems, internal tooling, migration paths and the engineering guardrails that keep dozens of teams productive. Currently at **ABN AMRO**; previously a Senior Frontend Engineer at **ING**.
-
-My sweet spot is where **architecture, developer experience and product reliability** meet.
-
-## `stack --verbose`
-
-| Area | Tools and interests |
-|---|---|
-| **Frontend** | TypeScript, JavaScript, Web Components, Lit, React, Vue, HTML, CSS |
-| **Architecture** | Microfrontends, import maps, design systems, platform APIs, backwards-compatible migrations |
-| **Tooling** | Node.js, Vite, Git, codemods, internal CLIs, documentation pipelines |
-| **Delivery** | Azure Pipelines, Docker, Nginx, release engineering, semantic versioning |
-| **Quality** | Observability, Sentry, CSP, performance, accessibility, reduced-motion support |
-| **Linux / homelab** | Rocky Linux, Ubuntu, Raspberry Pi, ESP32, Home Assistant, ESPHome, OPNsense |
-| **Local AI** | llama.cpp, ComfyUI, ROCm, local LLM / vision / TTS pipelines on AMD hardware |
-
-## `cat engineering-defaults.txt`
-
-```text
-Prefer boring, auditable deployments over clever magic.
-Backward compatibility is a feature, not cleanup for later.
-Software without a release identity is a support problem waiting to happen.
-If users have to wait, the interface should still feel alive.
-Make trade-offs explicit. Measure them. Skip the architecture theatre.
-```
-
-## `ps aux | grep rabbit-hole`
-
-- Running local AI workloads on AMD / ROCm
-- Building Home Assistant voice satellites and ESP32 devices
-- Tuning Linux, networking and self-hosted infrastructure
-- Experimenting with LoRa, MeshCore and small embedded displays
-- Turning developer friction into tools instead of documentation people ignore
-
-## `ls ~/projects`
-
-| Repository | What it is |
-|---|---|
-| [`hass-entso-e`](https://github.com/maxevilmind/hass-entso-e) | Home Assistant integration work around ENTSO-E energy data |
-| [`startraffic`](https://github.com/maxevilmind/startraffic) | A compact browser-game / portfolio experiment |
-| [`react-stepper`](https://github.com/maxevilmind/react-stepper) | Reusable React stepper component |
-| [`es6-string-css-highlight`](https://github.com/maxevilmind/es6-string-css-highlight) | CSS highlighting inside JavaScript template literals |
-| [`onedrive-file-picker`](https://github.com/maxevilmind/onedrive-file-picker) | OneDrive file-picker integration |
-
-## `git stats`
-
-```text
-Profile       maxevilmind
-Repositories  30+ public repositories
-Focus         Frontend platforms, tooling, Home Assistant, embedded systems
-Main stack    TypeScript, JavaScript, Lit, React, Vue
-Systems       Linux, Docker, ESP32, Raspberry Pi, OPNsense
-AI            llama.cpp, ComfyUI, ROCm
-```
-
-> This section is intentionally static and self-contained.  
-> No third-party GitHub stats service means no broken images, rate limits or unavailable cards.
 
 ---
 
-<p align="center">
-  <code>direct · pragmatic · curious · allergic to hand-waving</code>
-</p>
+## whoami
+
+I'm a Staff Frontend Engineer based in the Netherlands with **8+ years of experience** building modern web applications, frontend platforms and developer tooling.
+
+I enjoy solving large-scale engineering problems, improving developer experience, and creating systems that allow teams to ship software with confidence.
+
+What motivates me most isn't just writing code—it's helping teams grow, sharing knowledge, mentoring engineers, and making everyone's daily work a little easier.
+
+---
+
+## stack --verbose
+
+| Area | Technologies |
+|------|--------------|
+| **Languages** | TypeScript • JavaScript • HTML • CSS |
+| **Frontend** | Lit • React • Vue • Web Components |
+| **Architecture** | Microfrontends • Design Systems • Import Maps • Platform Engineering |
+| **Tooling** | Node.js • Vite • Git • npm • pnpm |
+| **Infrastructure** | Docker • Nginx • Azure Pipelines |
+| **Quality** | Sentry • Performance • CSP • Accessibility |
+| **Operating Systems** | Arch Linux • macOS |
+| **Homelab** | Home Assistant • ESPHome • Raspberry Pi • ESP32 • OPNsense |
+| **AI** | llama.cpp • ComfyUI • Local LLMs • AMD ROCm |
+
+---
+
+## engineering philosophy
+
+```text
+✔ Keep software maintainable.
+
+✔ Optimize for long-term developer productivity.
+
+✔ Make systems observable.
+
+✔ Version everything.
+
+✔ Backward compatibility is a feature.
+
+✔ Measure before optimizing.
+
+✔ Prefer simplicity over cleverness.
+```
+
+---
+
+## currently exploring
+
+- 🤖 Local AI & LLM infrastructure
+- 🏠 Home Assistant automations
+- ⚡ ESP32 development
+- 🐧 Linux customization
+- 🚀 Frontend platform engineering
+- 🧩 Developer Experience
+- 🏗 Large-scale frontend architecture
+
+---
+
+## featured repositories
+
+| Project | Description |
+|----------|-------------|
+| **hass-entso-e** | Home Assistant integration |
+| **react-stepper** | React component library |
+| **es6-string-css-highlight** | Syntax highlighting for template literals |
+| **startraffic** | Browser game experiment |
+| **onedrive-file-picker** | Microsoft OneDrive picker integration |
+
+---
+
+## what you'll find here
+
+- Frontend tooling
+- Platform engineering
+- Web Components
+- Home automation
+- Embedded projects
+- Linux tooling
+- AI experiments
+- Open source contributions
+
+---
+
+## beyond coding
+
+Outside of work you'll usually find me:
+
+- 🏃 Running
+- 🎸 Playing guitar
+- 🤖 Building smart home projects
+- 🐧 Experimenting with Linux
+- 🧠 Learning new technologies
+- 🎮 Gaming
+
+---
+
+## let's build something
+
+I'm always happy to connect with engineers, discuss architecture, exchange ideas, or collaborate on interesting projects.
+
+Whether it's frontend architecture, developer tooling, open source, or AI, feel free to reach out.
+
+---
+
+<div align="center">
+
+### Friendly • Curious • Collaborative • Always Learning
+
+*"The best engineering teams succeed by helping each other succeed."*
+
+</div>
