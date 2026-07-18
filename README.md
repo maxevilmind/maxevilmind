@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./assets/profile-terminal.svg" width="100%" alt="Terminal-style developer profile for Max" />
+  <img src="./profile-terminal.svg" width="100%" alt="Terminal-style developer profile for Max" />
 </div>
 
 <br />
