@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
   <title id="title">Terminal profile for Max</title>
-  <desc id="desc">A terminal-style developer profile describing Max's role, technology stack, operating systems, hardware and interests.</desc>
+  <desc id="desc">A terminal-style developer profile describing Max's role, stack, operating systems, interests and collaborative personality.</desc>
 
   <rect width="1200" height="540" rx="24" fill="#0d1117"/>
   <rect x="1" y="1" width="1198" height="538" rx="23" fill="none" stroke="#30363d" stroke-width="2"/>
@@ -25,8 +25,8 @@
       <text x="55" y="370">╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝</text>
     </g>
 
-    <text x="55" y="430" fill="#8b949e" font-size="15">building explicit, observable and versioned systems</text>
-    <text x="55" y="458" fill="#8b949e" font-size="15">— and occasionally making Linux do unreasonable things</text>
+    <text x="55" y="430" fill="#8b949e" font-size="15">building software that helps teams move faster</text>
+    <text x="55" y="458" fill="#8b949e" font-size="15">while helping people learn, contribute and thrive</text>
 
     <line x1="565" y1="92" x2="565" y2="490" stroke="#30363d"/>
 
@@ -35,17 +35,17 @@
 
     <g font-size="16">
       <text x="605" y="168"><tspan fill="#ff7b72">Role</tspan><tspan fill="#8b949e"> ............ </tspan><tspan fill="#c9d1d9">Staff Frontend Engineer</tspan></text>
-      <text x="605" y="196"><tspan fill="#ff7b72">Uptime</tspan><tspan fill="#8b949e"> .......... </tspan><tspan fill="#c9d1d9">8+ years in frontend</tspan></text>
+      <text x="605" y="196"><tspan fill="#ff7b72">Experience</tspan><tspan fill="#8b949e"> ...... </tspan><tspan fill="#c9d1d9">8+ years in frontend</tspan></text>
       <text x="605" y="224"><tspan fill="#ff7b72">Location</tspan><tspan fill="#8b949e"> ........ </tspan><tspan fill="#c9d1d9">Amsterdam area, NL</tspan></text>
-      <text x="605" y="252"><tspan fill="#d2a8ff">OS</tspan><tspan fill="#8b949e"> .............. </tspan><tspan fill="#c9d1d9">Rocky Linux / Ubuntu</tspan></text>
+      <text x="605" y="252"><tspan fill="#d2a8ff">OS</tspan><tspan fill="#8b949e"> .............. </tspan><tspan fill="#c9d1d9">Arch Linux / macOS</tspan></text>
       <text x="605" y="280"><tspan fill="#d2a8ff">Frontend</tspan><tspan fill="#8b949e"> ........ </tspan><tspan fill="#c9d1d9">TypeScript, Lit, React, Vue</tspan></text>
       <text x="605" y="308"><tspan fill="#d2a8ff">Platform</tspan><tspan fill="#8b949e"> ........ </tspan><tspan fill="#c9d1d9">Microfrontends, design systems</tspan></text>
       <text x="605" y="336"><tspan fill="#79c0ff">Delivery</tspan><tspan fill="#8b949e"> ........ </tspan><tspan fill="#c9d1d9">Vite, Docker, Azure Pipelines</tspan></text>
       <text x="605" y="364"><tspan fill="#79c0ff">Homelab</tspan><tspan fill="#8b949e"> ......... </tspan><tspan fill="#c9d1d9">HA, ESP32, Raspberry Pi, OPNsense</tspan></text>
       <text x="605" y="392"><tspan fill="#56d364">Local AI</tspan><tspan fill="#8b949e"> ........ </tspan><tspan fill="#c9d1d9">llama.cpp, ComfyUI, ROCm</tspan></text>
-      <text x="605" y="420"><tspan fill="#56d364">Hardware</tspan><tspan fill="#8b949e"> ........ </tspan><tspan fill="#c9d1d9">Ryzen 7 7800X3D · RX 7900 XTX</tspan></text>
-      <text x="605" y="448"><tspan fill="#ffa657">Personality</tspan><tspan fill="#8b949e"> ...... </tspan><tspan fill="#c9d1d9">direct, pragmatic, skeptical</tspan></text>
-      <text x="605" y="476"><tspan fill="#ffa657">Weakness</tspan><tspan fill="#8b949e"> ......... </tspan><tspan fill="#c9d1d9">cannot leave broken systems alone</tspan></text>
+      <text x="605" y="420"><tspan fill="#56d364">Personality</tspan><tspan fill="#8b949e"> ...... </tspan><tspan fill="#c9d1d9">open, friendly, collaborative</tspan></text>
+      <text x="605" y="448"><tspan fill="#ffa657">Mindset</tspan><tspan fill="#8b949e"> ......... </tspan><tspan fill="#c9d1d9">help people and teams thrive</tspan></text>
+      <text x="605" y="476"><tspan fill="#ffa657">Strength</tspan><tspan fill="#8b949e"> ........ </tspan><tspan fill="#c9d1d9">architecture, mentoring, DX</tspan></text>
     </g>
 
     <rect x="605" y="498" width="12" height="20" fill="#58a6ff">
