@@ -1,54 +1,126 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="540" viewBox="0 0 1200 540" role="img" aria-labelledby="title desc">
-  <title id="title">Terminal profile for Max</title>
-  <desc id="desc">A terminal-style developer profile describing Max's role, stack, operating systems, interests and collaborative personality.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560" role="img" aria-labelledby="title desc">
+  <title id="title">Cyberpunk terminal profile for Max</title>
+  <desc id="desc">Netrunner-inspired terminal profile using Max's supplied ASCII portrait.</desc>
 
-  <rect width="1200" height="540" rx="24" fill="#0d1117"/>
-  <rect x="1" y="1" width="1198" height="538" rx="23" fill="none" stroke="#30363d" stroke-width="2"/>
+  <defs>
+    <filter id="glow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="1.35" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="panel" x1="0" x2="1">
+      <stop offset="0%" stop-color="#06110e"/>
+      <stop offset="100%" stop-color="#0a0f14"/>
+    </linearGradient>
+    <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="1" fill="#ffffff" opacity="0.018"/>
+    </pattern>
+    <clipPath id="portraitClip">
+      <rect x="38" y="105" width="440" height="325" rx="8"/>
+    </clipPath>
+  </defs>
 
-  <circle cx="34" cy="31" r="8" fill="#ff5f56"/>
-  <circle cx="60" cy="31" r="8" fill="#ffbd2e"/>
-  <circle cx="86" cy="31" r="8" fill="#27c93f"/>
-  <text x="600" y="37" text-anchor="middle" fill="#8b949e" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16">max@github: ~/profile</text>
+  <rect width="1200" height="560" rx="22" fill="#070b10"/>
+  <rect x="1" y="1" width="1198" height="558" rx="21" fill="none" stroke="#1f6f4a" stroke-width="2"/>
+  <rect x="14" y="14" width="1172" height="532" rx="16" fill="url(#panel)" stroke="#214b3a"/>
+  <rect x="14" y="14" width="1172" height="532" rx="16" fill="url(#scanlines)"/>
 
-  <line x1="0" y1="60" x2="1200" y2="60" stroke="#30363d"/>
+  <circle cx="38" cy="36" r="7" fill="#ff5f56"/>
+  <circle cx="62" cy="36" r="7" fill="#ffbd2e"/>
+  <circle cx="86" cy="36" r="7" fill="#27c93f"/>
+  <text x="600" y="42" text-anchor="middle" fill="#6ee7b7"
+        font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="15">max@github: ~/profile --netrunner</text>
+
+  <line x1="14" y1="62" x2="1186" y2="62" stroke="#1f6f4a"/>
+  <line x1="500" y1="88" x2="500" y2="486" stroke="#1f6f4a"/>
 
   <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
-    <text x="55" y="115" fill="#58a6ff" font-size="21">maxevilmind</text>
-    <text x="55" y="145" fill="#8b949e" font-size="16">staff frontend engineer</text>
+    <text x="45" y="96" fill="#39ff88" font-size="15" filter="url(#glow)">max@github:~$ render_identity --ascii</text>
 
-    <g fill="#c9d1d9" font-size="23" xml:space="preserve">
-      <text x="55" y="205">███╗   ███╗ █████╗ ██╗  ██╗</text>
-      <text x="55" y="238">████╗ ████║██╔══██╗╚██╗██╔╝</text>
-      <text x="55" y="271">██╔████╔██║███████║ ╚███╔╝ </text>
-      <text x="55" y="304">██║╚██╔╝██║██╔══██║ ██╔██╗ </text>
-      <text x="55" y="337">██║ ╚═╝ ██║██║  ██║██╔╝ ██╗</text>
-      <text x="55" y="370">╚═╝     ╚═╝╚═╝  ╚═╝╚═╝  ╚═╝</text>
+    <rect x="38" y="105" width="440" height="325" rx="8" fill="#040908" stroke="#1f6f4a"/>
+    <g clip-path="url(#portraitClip)" filter="url(#glow)">
+      <text x="42" y="112.00" fill="#2ed6ff" font-size="8.20" opacity="0.98">  . .    ..           .                                . .       &amp;&amp;&amp;&amp;$    .       </text>
+      <text x="42" y="119.39" fill="#46ff94" font-size="8.20" opacity="0.98">              . .      .    .           &amp;&amp;&amp;&amp;&amp;;;x+;;..    .$+;$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;++ . $      </text>
+      <text x="42" y="126.77" fill="#46ff94" font-size="8.20" opacity="0.98"> ..                 .        . .    x$$&amp;&amp;+  +&amp;x;x;:;.:X;  .   ;x$&amp;&amp;&amp;&amp;&amp;;+.  X      </text>
+      <text x="42" y="134.16" fill="#46ff94" font-size="8.20" opacity="0.98">                  .             ..&amp;&amp;&amp;&amp;&amp;X ;&amp;X;+;  :x$&amp;+: .        .&amp;&amp;&amp;&amp;X;   X      </text>
+      <text x="42" y="141.55" fill="#46ff94" font-size="8.20" opacity="0.98">          .  .                  &amp;&amp;xXX; :$&amp;xX+.:+$$:.. $&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;+    X&amp;&amp;x.  x      </text>
+      <text x="42" y="148.93" fill="#46ff94" font-size="8.20" opacity="0.98">                  .           &amp;&amp;&amp;xXx;+xx;:X;;x$XX+.+&amp;&amp;&amp;;    .  .&amp;&amp;;   ;x . X      </text>
+      <text x="42" y="156.32" fill="#46ff94" font-size="8.20" opacity="0.98">                            x&amp;&amp;$Xx:+$x:;$&amp;;+x:;X:+;&amp;x.. :;+;.    X&amp;&amp;;  x; .+      </text>
+      <text x="42" y="163.70" fill="#46ff94" font-size="8.20" opacity="0.98">                          .$X&amp;X;x:$$XXx+&amp;:.X++Xx: +XX&amp;&amp;&amp;&amp;$&amp;&amp;&amp;&amp;&amp;&amp;x&amp;&amp;&amp;$+     +      </text>
+      <text x="42" y="171.09" fill="#46ff94" font-size="8.20" opacity="0.98">              .     .   . &amp;$&amp;xX.+$&amp;+;+x&amp;$;X+;&amp;X&amp; $&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$.   &amp;&amp;&amp;&amp;&amp;&amp; . :     .</text>
+      <text x="42" y="178.48" fill="#2ed6ff" font-size="8.20" opacity="0.98">  .                .     &amp;&amp;$&amp;X+xxxxx+++&amp;;;x:X&amp;x; &amp;&amp;&amp;&amp;&amp;&amp;x         .  .&amp;&amp;&amp;&amp;$        </text>
+      <text x="42" y="185.86" fill="#46ff94" font-size="8.20" opacity="0.98">           .           &amp;&amp;+x&amp;++&amp;&amp;&amp;&amp;XxXXX&amp;+XXX&amp;&amp;&amp;:&amp;&amp;&amp;&amp;: .       .        &amp;&amp;&amp;.       </text>
+      <text x="42" y="193.25" fill="#46ff94" font-size="8.20" opacity="0.98">          .            &amp;$&amp;&amp;&amp;xX&amp;&amp;&amp;xxx$xX$X&amp;$$&amp;&amp;X;&amp;$             .        &amp;&amp;$ ;     </text>
+      <text x="42" y="200.64" fill="#46ff94" font-size="8.20" opacity="0.98">   .                  &amp;&amp;XXx$$&amp;&amp;$+x$$&amp;&amp;&amp;&amp;&amp;&amp;$&amp;&amp;&amp;x+          .    .  . .   &amp;&amp;  ;     </text>
+      <text x="42" y="208.02" fill="#46ff94" font-size="8.20" opacity="0.98">      .    .         &amp;&amp;+&amp;&amp;&amp;&amp;&amp;&amp;X$&amp;&amp;&amp;&amp;&amp;&amp;&amp;$&amp;&amp;$&amp;$X&amp;$                      .  &amp;  :    .</text>
+      <text x="42" y="215.41" fill="#46ff94" font-size="8.20" opacity="0.98">   .    .           &amp;&amp;;$&amp;x$XX$$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;;    .     .   .           .;x     </text>
+      <text x="42" y="222.80" fill="#46ff94" font-size="8.20" opacity="0.98">                    &amp;&amp;&amp;&amp;X&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;+   .                      :+X     </text>
+      <text x="42" y="230.18" fill="#46ff94" font-size="8.20" opacity="0.98">    .              &amp;&amp;$&amp;&amp;X&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;X+..  .         .            ;X     </text>
+      <text x="42" y="237.57" fill="#46ff94" font-size="8.20" opacity="0.98">                   &amp;&amp;&amp;&amp;X&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$;.  . . ;.+&amp;&amp;&amp;&amp;:       .    xX     </text>
+      <text x="42" y="244.95" fill="#2ed6ff" font-size="8.20" opacity="0.98">     .    .       $&amp;$;&amp;:&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$x..+&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;;:  :&amp;&amp;&amp;&amp; :$     </text>
+      <text x="42" y="252.34" fill="#46ff94" font-size="8.20" opacity="0.98">                 ;&amp;$XX&amp;+&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;x&amp;X+$+:$&amp;&amp;&amp;&amp;+;&amp;x.$$&amp;:  ;&amp;&amp;&amp;  .;&amp;   . </text>
+      <text x="42" y="259.73" fill="#46ff94" font-size="8.20" opacity="0.98">                X$+&amp;&amp;&amp;&amp;x&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;Xx. X&amp;&amp;X+  :+ ;: X&amp;$  ; &amp;&amp; x.. &amp;     </text>
+      <text x="42" y="267.11" fill="#46ff94" font-size="8.20" opacity="0.98">           .   +$.&amp;&amp;xx&amp;+&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;X.           .                 .     </text>
+      <text x="42" y="274.50" fill="#46ff94" font-size="8.20" opacity="0.98">             .    &amp;$$&amp;x;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;;   ..                  .  &amp;&amp;+x&amp;x+.. </text>
+      <text x="42" y="281.89" fill="#46ff94" font-size="8.20" opacity="0.98">          .     ::&amp;x+X$X&amp;&amp;+$&amp;&amp;&amp;X&amp;$&amp;&amp;&amp;&amp;&amp;&amp;&amp;$&amp;&amp;$$+          .       .      &amp;&amp;&amp;&amp;&amp;X: . </text>
+      <text x="42" y="289.27" fill="#46ff94" font-size="8.20" opacity="0.98">       .       . ++;:$&amp;X&amp;;X&amp;&amp;&amp;$+$&amp;&amp;&amp;&amp;&amp;&amp;&amp;x$&amp;&amp;&amp;$;              :;:::;     &amp;&amp;&amp;&amp;&amp;X;;  </text>
+      <text x="42" y="296.66" fill="#46ff94" font-size="8.20" opacity="0.98">               :X&amp;+.X+  :&amp;&amp;&amp;&amp;XXX;x$x&amp;&amp;&amp;&amp; X&amp; &amp;&amp;.       .     +  .        &amp;&amp;&amp;&amp;&amp;;;;. </text>
+      <text x="42" y="304.05" fill="#46ff94" font-size="8.20" opacity="0.98">       .   :+ ;XXX$&amp;X:;$&amp;&amp;&amp;&amp;&amp;xX;X$X:&amp;&amp;&amp;&amp; +X;&amp;+             x&amp;.          :&amp;&amp;&amp;&amp;&amp;x+;.</text>
+      <text x="42" y="311.43" fill="#2ed6ff" font-size="8.20" opacity="0.98">      .   X; xXx$&amp;x :+:&amp;&amp;&amp;&amp;&amp;XX;+&amp;&amp;X:&amp;&amp;&amp;$ X..&amp;:     .      .  &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;  &amp;&amp;+&amp;&amp;&amp;&amp;&amp;&amp;&amp; </text>
+      <text x="42" y="318.82" fill="#46ff94" font-size="8.20" opacity="0.98">       . .X &amp;&amp;$&amp;&amp;;.++.;&amp;&amp;&amp;&amp;Xx.X&amp;&amp;; ;&amp;&amp;&amp;  &amp;+;&amp;$.    .       .x&amp;&amp;&amp;&amp;&amp;X  . &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;:  </text>
+      <text x="42" y="326.20" fill="#46ff94" font-size="8.20" opacity="0.98">       : x&amp;x+$&amp;&amp;;:+X:X&amp;&amp;&amp;&amp;x: X&amp;&amp;  &amp;&amp;&amp;&amp;$ ;$x.&amp;$.         &amp;&amp;&amp;+;;x    $.  xX&amp;xx$     </text>
+      <text x="42" y="333.59" fill="#46ff94" font-size="8.20" opacity="0.98">        &amp;&amp;&amp;x$&amp;$&amp;+XxX&amp;&amp;&amp;&amp;&amp;x; $&amp;&amp; .&amp;&amp;&amp;&amp;: +;  $$++;.     ;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;:&amp;&amp;&amp; x$$xX&amp;     </text>
+      <text x="42" y="340.98" fill="#46ff94" font-size="8.20" opacity="0.98">       &amp;&amp;X&amp;&amp;&amp;&amp;&amp;&amp;;$XX&amp;&amp;$&amp;&amp;:x$&amp;: +&amp;&amp;X&amp;&amp;;x:  ;&amp;$&amp;$+::::. X&amp;         $   X+ X;+;&amp; . ..</text>
+      <text x="42" y="348.36" fill="#46ff94" font-size="8.20" opacity="0.98">       &amp;&amp;&amp;X&amp;&amp;&amp;&amp;$$&amp;&amp;&amp;&amp;$x&amp;;;&amp;&amp;X.&amp;&amp;&amp;+&amp;&amp;$ x&amp;..X&amp;&amp;&amp;X+::+;x$&amp;; .  . .   .    .;&amp;+.X     </text>
+      <text x="42" y="355.75" fill="#46ff94" font-size="8.20" opacity="0.98">      .&amp;&amp;$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;++&amp;X&amp;&amp;&amp; X&amp;+;&amp;&amp;&amp;$:+: +.XXX&amp;&amp;X:  +xX;.  ..;&amp;&amp;:.   .    :;&amp;  .  </text>
+      <text x="42" y="363.14" fill="#46ff94" font-size="8.20" opacity="0.98">     . &amp;&amp;XX&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;x.&amp;&amp;:&amp;&amp;&amp;&amp;&amp;x+;X;.XX&amp;&amp;&amp;&amp;&amp;&amp;$&amp;X+xx  .;x&amp;&amp;X  :;$ +$.  &amp;  . .</text>
+      <text x="42" y="370.52" fill="#46ff94" font-size="8.20" opacity="0.98">    .   &amp;&amp;x&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;x+&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;;  &amp;+;.X&amp;&amp;&amp;&amp;&amp;&amp;&amp;$$&amp;&amp;+          &amp;+   &amp;:::$     </text>
+      <text x="42" y="377.91" fill="#2ed6ff" font-size="8.20" opacity="0.98">    .   &amp;&amp;&amp;&amp;&amp;&amp;$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;x+&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;. :&amp;&amp;:x&amp;&amp;X$&amp;&amp;&amp;&amp;&amp;&amp;X+:            . &amp;:  &amp;     </text>
+      <text x="42" y="385.30" fill="#46ff94" font-size="8.20" opacity="0.98">     .    &amp;&amp;&amp;&amp;&amp;;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;++&amp;$x&amp;&amp;&amp;&amp;&amp;&amp;: &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;XxX:..    ;+ &amp;:; &amp;    .</text>
+      <text x="42" y="392.68" fill="#46ff94" font-size="8.20" opacity="0.98">           x&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;xx&amp;&amp;&amp;$&amp;&amp;&amp;&amp;&amp;Xx&amp;&amp;&amp;&amp;+$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;+&amp;&amp;&amp;&amp;&amp;$xX&amp;:  +++ &amp;.   .</text>
+      <text x="42" y="400.07" fill="#46ff94" font-size="8.20" opacity="0.98">         &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$++X$$&amp;&amp;&amp;&amp;&amp;X ::   . X&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;$.     $X+; &amp;     </text>
+      <text x="42" y="407.45" fill="#46ff94" font-size="8.20" opacity="0.98">      +&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;.;$$X+.   &amp;&amp;&amp;&amp;&amp;&amp;$$Xx+:..X:x:::;:+; &amp; .   </text>
+      <text x="42" y="414.84" fill="#46ff94" font-size="8.20" opacity="0.98">   &amp;&amp;&amp;&amp;&amp;&amp;x+x$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;+ .+$x       &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;x X&amp;&amp;&amp;:; $     </text>
+      <text x="42" y="422.23" fill="#46ff94" font-size="8.20" opacity="0.98"> &amp;&amp;&amp;..:x&amp;&amp;&amp;$+&amp;$&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;x..    .      &amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;.&amp;&amp;&amp;&amp;$x;+ &amp;.    </text>
+      <text x="42" y="429.61" fill="#46ff94" font-size="8.20" opacity="0.98">&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;XX++xX+x;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;&amp;x        &amp;&amp;&amp; $&amp;&amp;&amp;&amp;      &amp;&amp;&amp;$.</text>
     </g>
 
-    <text x="55" y="430" fill="#8b949e" font-size="15">building software that helps teams move faster</text>
-    <text x="55" y="458" fill="#8b949e" font-size="15">while helping people learn, contribute and thrive</text>
+    <path d="M38 124 h18 M38 124 v18 M478 124 h-18 M478 124 v18
+             M38 411 h18 M38 411 v-18 M478 411 h-18 M478 411 v-18"
+          stroke="#ff4fd8" stroke-width="2" fill="none" opacity="0.85"/>
 
-    <line x1="565" y1="92" x2="565" y2="490" stroke="#30363d"/>
+    <rect x="45" y="442" width="425" height="38" rx="6" fill="#081812" stroke="#39ff88"/>
+    <text x="62" y="466" fill="#39ff88" font-size="15">IDENTITY SCAN</text>
+    <text x="445" y="466" text-anchor="end" fill="#39ff88" font-size="15">MATCHED</text>
 
-    <text x="605" y="112" fill="#f0883e" font-size="19" font-weight="700">max@github</text>
-    <text x="605" y="132" fill="#30363d" font-size="16">────────────────────────────────────────────────</text>
+    <text x="540" y="108" fill="#39ff88" font-size="27" font-weight="700" filter="url(#glow)">maxevilmind</text>
+    <text x="540" y="135" fill="#d8dee9" font-size="16">Staff Frontend Engineer</text>
+    <line x1="540" y1="150" x2="1140" y2="150" stroke="#39ff88"/>
 
     <g font-size="16">
-      <text x="605" y="168"><tspan fill="#ff7b72">Role</tspan><tspan fill="#8b949e"> ............ </tspan><tspan fill="#c9d1d9">Staff Frontend Engineer</tspan></text>
-      <text x="605" y="196"><tspan fill="#ff7b72">Experience</tspan><tspan fill="#8b949e"> ...... </tspan><tspan fill="#c9d1d9">8+ years in frontend</tspan></text>
-      <text x="605" y="224"><tspan fill="#ff7b72">Location</tspan><tspan fill="#8b949e"> ........ </tspan><tspan fill="#c9d1d9">Amsterdam area, NL</tspan></text>
-      <text x="605" y="252"><tspan fill="#d2a8ff">OS</tspan><tspan fill="#8b949e"> .............. </tspan><tspan fill="#c9d1d9">Arch Linux / macOS</tspan></text>
-      <text x="605" y="280"><tspan fill="#d2a8ff">Frontend</tspan><tspan fill="#8b949e"> ........ </tspan><tspan fill="#c9d1d9">TypeScript, Lit, React, Vue</tspan></text>
-      <text x="605" y="308"><tspan fill="#d2a8ff">Platform</tspan><tspan fill="#8b949e"> ........ </tspan><tspan fill="#c9d1d9">Microfrontends, design systems</tspan></text>
-      <text x="605" y="336"><tspan fill="#79c0ff">Delivery</tspan><tspan fill="#8b949e"> ........ </tspan><tspan fill="#c9d1d9">Vite, Docker, Azure Pipelines</tspan></text>
-      <text x="605" y="364"><tspan fill="#79c0ff">Homelab</tspan><tspan fill="#8b949e"> ......... </tspan><tspan fill="#c9d1d9">HA, ESP32, Raspberry Pi, OPNsense</tspan></text>
-      <text x="605" y="392"><tspan fill="#56d364">Local AI</tspan><tspan fill="#8b949e"> ........ </tspan><tspan fill="#c9d1d9">llama.cpp, ComfyUI, ROCm</tspan></text>
-      <text x="605" y="420"><tspan fill="#56d364">Personality</tspan><tspan fill="#8b949e"> ...... </tspan><tspan fill="#c9d1d9">open, friendly, collaborative</tspan></text>
-      <text x="605" y="448"><tspan fill="#ffa657">Mindset</tspan><tspan fill="#8b949e"> ......... </tspan><tspan fill="#c9d1d9">help people and teams thrive</tspan></text>
-      <text x="605" y="476"><tspan fill="#ffa657">Strength</tspan><tspan fill="#8b949e"> ........ </tspan><tspan fill="#c9d1d9">architecture, mentoring, DX</tspan></text>
+      <text x="540" y="180"><tspan fill="#39ff88">Role</tspan><tspan fill="#597268"> ............ </tspan><tspan fill="#e5e7eb">Staff Frontend Engineer</tspan></text>
+      <text x="540" y="205"><tspan fill="#39ff88">Experience</tspan><tspan fill="#597268"> ...... </tspan><tspan fill="#e5e7eb">8+ years in frontend</tspan></text>
+      <text x="540" y="230"><tspan fill="#39ff88">Location</tspan><tspan fill="#597268"> ........ </tspan><tspan fill="#e5e7eb">Amsterdam area, NL</tspan></text>
+      <text x="540" y="255"><tspan fill="#39ff88">OS</tspan><tspan fill="#597268"> .............. </tspan><tspan fill="#00d4ff">Arch Linux / macOS</tspan></text>
+      <text x="540" y="280"><tspan fill="#39ff88">Frontend</tspan><tspan fill="#597268"> ........ </tspan><tspan fill="#e5e7eb">TypeScript, Lit, React, Vue</tspan></text>
+      <text x="540" y="305"><tspan fill="#39ff88">Focus</tspan><tspan fill="#597268"> ........... </tspan><tspan fill="#ff4fd8">Developer experience, platforms</tspan></text>
+      <text x="540" y="330"><tspan fill="#39ff88">Architecture</tspan><tspan fill="#597268"> .... </tspan><tspan fill="#00d4ff">Microfrontends, UI libraries</tspan></text>
+      <text x="540" y="355"><tspan fill="#39ff88">Delivery</tspan><tspan fill="#597268"> ........ </tspan><tspan fill="#e5e7eb">Vite, Docker, Azure Pipelines</tspan></text>
+      <text x="540" y="380"><tspan fill="#39ff88">Homelab</tspan><tspan fill="#597268"> ......... </tspan><tspan fill="#00d4ff">HA, ESP32, Raspberry Pi, OPNsense</tspan></text>
+      <text x="540" y="405"><tspan fill="#39ff88">Local AI</tspan><tspan fill="#597268"> ........ </tspan><tspan fill="#e5e7eb">llama.cpp, ComfyUI, ROCm</tspan></text>
     </g>
 
-    <rect x="605" y="498" width="12" height="20" fill="#58a6ff">
+    <line x1="540" y1="422" x2="1140" y2="422" stroke="#39ff88"/>
+
+    <g font-size="16">
+      <text x="540" y="448"><tspan fill="#ffd166">Personality</tspan><tspan fill="#597268"> ...... </tspan><tspan fill="#39ff88">open, friendly, collaborative</tspan></text>
+      <text x="540" y="473"><tspan fill="#ffd166">Approach</tspan><tspan fill="#597268"> ......... </tspan><tspan fill="#39ff88">enable teams, remove friction</tspan></text>
+      <text x="540" y="498"><tspan fill="#ffd166">Strengths</tspan><tspan fill="#597268"> ....... </tspan><tspan fill="#00d4ff">platforms, UI systems, mentoring</tspan></text>
+    </g>
+
+    <line x1="45" y1="515" x2="1148" y2="515" stroke="#1f6f4a"/>
+    <text x="55" y="538" fill="#39ff88" font-size="15">max@github:~$ improve_dx --scale-platforms --ship-ui-systems</text>
+    <rect x="620" y="523" width="10" height="18" fill="#39ff88">
       <animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/>
     </rect>
   </g>
