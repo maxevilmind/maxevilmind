@@ -54,10 +54,17 @@ Make trade-offs explicit. Measure them. Skip the architecture theatre.
 
 ## `git stats`
 
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=maxevilmind&show_icons=true&hide_border=true&theme=transparent&rank_icon=github" alt="Max's GitHub statistics" />
-  <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=maxevilmind&layout=compact&hide_border=true&theme=transparent&langs_count=8&exclude_repo=lit,qmk_firmware,vergecurrency.com,Best-README-Template" alt="Most used languages" />
-</p>
+```text
+Profile       maxevilmind
+Repositories  30+ public repositories
+Focus         Frontend platforms, tooling, Home Assistant, embedded systems
+Main stack    TypeScript, JavaScript, Lit, React, Vue
+Systems       Linux, Docker, ESP32, Raspberry Pi, OPNsense
+AI            llama.cpp, ComfyUI, ROCm
+```
+
+> This section is intentionally static and self-contained.  
+> No third-party GitHub stats service means no broken images, rate limits or unavailable cards.
 
 ---
 
